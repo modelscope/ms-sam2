@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 
 # Package metadata
 NAME = "modelscope-sam2-fork"
-VERSION = "1.0.4"
+VERSION = "1.0.5"
 DESCRIPTION = "SAM 2: Segment Anything in Images and Videos"
 URL = "https://github.com/facebookresearch/sam2"
 AUTHOR = "Meta AI"
@@ -26,7 +26,6 @@ REQUIRED_PACKAGES = [
     "torchvision>=0.20.1",
     "numpy>=1.24.4",
     "tqdm>=4.66.1",
-    "hydra-core>=1.3.2",
     "pillow>=9.4.0",
 ]
 
